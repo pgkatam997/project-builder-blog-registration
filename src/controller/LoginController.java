@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-
-
 @WebServlet(urlPatterns= {"/login"})
 public class LoginController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -41,10 +39,7 @@ public class LoginController extends HttpServlet {
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/views/loginView.jsp");
 			rd.forward(request, response);
 		}
-		
-		
-		
-	*/	
+		*/
 	}
 
 }
